@@ -1,3 +1,3 @@
 UPDATE characters
 SET species = 'Martian'
-HAVING id = COUNT(*);
+WHERE id = COUNT(id);
