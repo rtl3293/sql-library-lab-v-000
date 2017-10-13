@@ -1,3 +1,3 @@
-UPDATE characters 
+UPDATE characters
 SET species = 'Martian'
-WHERE ORDER BY id DESC LIMIT 1
+WHERE ORDER BY id DESC LIMIT 1;
